@@ -1,0 +1,121 @@
+.my-class {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+.content-class{
+.content {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    transform: none;
+}
+}
+
+
+.content_translate {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+.content_translate {
+    background-color: #794f45;
+    transform: none;
+    width: 50px;
+    height: 50px;
+
+}
+.content_translate:hover {
+    transform: translate(20px, 20px);
+}
+
+
+
+.content_scale {
+    transform: scale(1,1);
+    background-color: #77608d;
+    width: 50px;
+    height: 50px;
+}
+.content_scale:hover {
+    transform: scale(3,3);
+}
+
+.content_rotate {
+    transform: rotate(0deg);
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.content_rotate:hover{
+    transform: rotate(30deg);
+}
+
+
+.content_skew{
+    transform: skew(0deg, 0deg);
+    background-color: #794f45;
+    height: 50px;
+    width: 50px;
+}
+
+.content_skew:hover {
+    transform: skew(0deg, 10deg);
+}
+
+.content_matrix {
+    transform: matrix(1,0,0,1,0,0);
+    background-color: #77608d;
+    width: 50px;
+    height: 50px;
+}
+
+.content_matrix:hover {
+    transform: matrix(1,0,2,1,0,0);
+    background-color: #77608d;
+}
+
+
+
+
+.content_multi {
+    background-color: #7a956b;
+    width: 50px;
+    height: 50px;
+    transform: rotate(0deg) translate(0px,0px) scale(0.5);
+   
+}
+.content_multi:hover {
+    transform: rotate(45deg) translate(50px,50px) scale(0.5);
+    background-color: #7a956b;
+    
+   
+}
+
+
+
+
+
+.content_transform-origin{
+    background-color: #794f45;
+    width: 50px;
+    height: 50px;
+    transform-origin: 0,0;
+    transform: rotate(0deg)
+    
+}
+
+.content_transform-origin:hover {
+    transform: rotate(-30deg);
+    background-color: green;
+}
+
+.content_none {
+    transform: none;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+
